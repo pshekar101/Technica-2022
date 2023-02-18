@@ -1,0 +1,74 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+ /*body {
+    background-color: white;
+    img src="mymentor.png" alt="logo";
+    img 
+        {height: 200px;
+        width: 200px;}
+  } */
+  
+  h1 {
+    font-family: 'Montserrat', regular;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    }
+  h2 {
+    font-family: 'Montserrat', regular;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(5, 5, 5);
+  }
+
+/*Sanjana's text wrapping*/
+#hp  {
+float: left;    
+ margin: 0 15px 0 0;
+}
+
+/* text styling */
+
+
+.h3 {
+  font-family: Helvetica;
+  color: black ;
+}
+
+.h5 {
+  font-family: Helvetica;
+  color: black ;
+}
+.p {
+  font-family: Helvetica;
+  color: black;
+}
+
+/* buttons and rounded divider for quiz page - penelope */
+.button {
+  background-color: #8EA8A0;
+  border: none;
+  color: #FAF8EB;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-family: ;
+}
+
+.button:after {
+   background-color: #455A6E;
+   color: #FAF8EB;
+}
+
+hr.rounded {
+  border-top: 10px solid #455A6E;
+  border-radius: 5px;
+}

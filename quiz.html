@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Find Your Connection!</title>
+        <link rel ="stylesheet" type="text/css" >
+      	<script src="script.js" defer>
+        </script>
+    </head>
+
+  <!--div style="background-color: #455a6e; height:69px; padding-top:60px;"></div--->
+<body>
+    <div id = "overlay" style="background-color: #455A6E; height:115px; padding-top:20px; align-items: center;">
+      <img src="mymentor.png" style="height:90px" style="width:40px">
+    </div>
+</body>
+
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Home')"><a href = Home.html> Home </a></button>
+    <button class="tablinks" onclick="openTab(event, 'About')"><a href = AboutUs.html> About</a></button>
+    <button class="tablinks" onclick="openTab(event, 'Quiz')">  <a href = quiz.html> Quiz </a></button>
+    <button class="tablinks" onclick="openTab(event, 'Contacts')"><a href = Contact.html> Contact</a></button>
+  </div>
+
+
+<body>
+  <header>
+    <h1><center> mymentor quiz </center></h1>
+  </header>
+  
+  <main>
+    <hr class="rounded">
+    <h2><center> 1. Enter Age </center></h2>
+    <div class = "question">
+        <div class = "answer-choice">
+            <br>
+            <button id = "q1a1"> a. 18-24 </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q1a2"> b. 25-34 </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q1a3"> c. 35-44 </button> 
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q1a4"> d. 45-54 </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q1a5"> e. 55+ </button>
+    </div>
+    </div>
+       
+    <hr class="rounded"> 
+    <h2><center> 2. Enter Ethnicity </center></h2>
+    <div class = "question">
+        <div class = "answer-choice">
+            <br>
+            <button id = "q2a1"> a. Central Asian </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q2a2"> b. East Asian </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q2a3"> c. South Asian </button> 
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q2a4"> d. Southeast Asian </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q2a5"> e. Eastern European </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q2a6"> f. Western European </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q2a7"> g. Middle Eastern </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q2a8"> h. Caribbean </button> 
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q2a9"> i. South American </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q2a10"> j. Central American </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q2a11"> k. Central African </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q2a12"> l. East African </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q2a13"> m. North African </button> 
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q2a14"> n. Southern African </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q2a15"> o. West African </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q2a16"> p. Australian or New Zealander </button>
+    </div>
+    </div>
+    
+    <hr class="rounded">
+    <h2><center> 3. Do You Have a Work Visa? </center></h2>
+    <div class = "question">
+        <div class = "answer-choice">
+            <br>
+            <button id = "q3a1"> a. Yes. </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q3a2"> b. No. </button>
+    </div>
+    </div>
+
+    <hr class="rounded">
+    <h2><center> 4. What Occupation Are You Trying to be Employeed As? </center></h2>
+    <div class = "question">
+        <div class = "answer-choice">
+            <br>
+            <button id = "q4a1"> a. Higher management. </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q4a2"> b. Misc business and finance. </button>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q4a3"> c. Sales and office relations. </button>
+        </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q4a4"> d. Misc non-support technologies (ex. cybersecurity and data analysis). </button>
+        </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q4a5"> e. Office adminstration. </button>
+        </div>
+    </div>
+    </div>
+    
+    <hr class="rounded">
+    <h2><center> 5. Who Do You Want to Connect With? </center></h2>
+    <div class = "question">
+        <div class = "Answer-choice">
+            <br>
+            <button id = "q5a1"> a. Someone with the same ethnicity / can speak my native language. </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q5a2"> b. Someone who is a similar age. </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q5a3"> c. Someone who is in my desired industry. </button>
+    </div>
+        <div class = "answer-choice">
+            <br>
+            <button id = "q5a3"> d. Someone who is in my desired industry. </button>
+    </div>
+        <div class = "answer-choice">
+        <br>
+        <button id = "q5a4"> e. Someone who fits all of the above critera. </button>
+    </div>
+      
+    <hr class="rounded">
+    <div class="result">
+        <h2 id="result"> <center> Your result is... </center></h2>
+    </div>
+    </div>
+
+  </main>
+</body>

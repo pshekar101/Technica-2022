@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>About Us</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+
+<body>
+  <div id = "overlay" style="background-color: #C05C42; height:115px; padding-top:20px;">
+    <img src="mymentor.png" style="height:90px" style="width:40px">
+  </div>
+</body>
+
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Home')"><a href = Home.html> Home </a></button>
+  <button class="tablinks" onclick="openTab(event, 'About')"><a href = AboutUs.html> About</a></button>
+  <button class="tablinks" onclick="openTab(event, 'Quiz')">  <a href = quiz.html> Quiz </a></button>
+  <button class="tablinks" onclick="openTab(event, 'Contacts')"><a href = Contact.html> Contact</a></button>
+</div>
+
+<h1>
+  <center>About Us</center>
+</h1>
+
+<p>
+  We are  MyMentor, a mentorship service to 
+  help you connect with other people in LinkedIn. 
+  Our goal is to help immigrants move into different 
+  professional fields of work such as management, 
+  business, engineering, and more. 
+</p>
+
+<h3> Our Story </h3>
+
+<p>
+The U.S. Census Bureau conducts surveys every year
+in order to record the number of foreign born and 
+natural born citizens living in the country. Using 
+the data collected by them, our team analyzed the 
+different statistics and came to the conclusion that
+there are significantly more native born citizens working
+in technology and management related positions than immigrants. 
+<h5>
+  Want to learn more about the U.S. Census? Click 
+  <a href="https://www.census.gov/en.html"> HERE!</a>
+</h5>
+
+<center>
+  <img src="immigrantgraphics.png" alt="ImmigrantsGraphic" style="width:1000px; height:800px">
+  <img src="QuantilePlot.png" alt="linear regression" style="width:600px; height:250px;  text-align: right; ">
+  <img src="totalpopulationregression.png" alt="linear regression" style="width:500px; height:300px; text-align: right;">
+
+</center>
+<br> <br/>
+
+<h4><u><center>
+  Linear Regression Model
+</h4></u></center>
+<p>
+  We are looking to build a generalized model in the form of y=mx+b, where b is the intercept and m is the slope of the line. 
+  Because we often don’t have enough information or data to know the exact equation that exists in the wild, we have to build 
+  this equation by generating estimates for both the slope and the intercept. 
+</p>
+
+<p> It is from this line above that we obtain our coefficients. Where the line meets the y-axis is our intercept (b) and the 
+  slope of the line is our m. Using the understanding we’ve gained so far, and the estimates for the coefficients provided in 
+  the output above, we can now build out the equation for our model. 
+</p>
+
+<p> 
+  In this case, the linear regression equation becomes y = 0.8933(x) + 2.8340, revealing how, on average, 2.83% of 
+  native born Americans work, and for every one percent increase in native born Americans working, there is a 0.8933% 
+  increase in foreign born Americans. 
+
+</p>
+
+<p>
+  The stars, or "asteriks" near the Pr(> |t|) for foreign, reveals how there is some statistical significance for our model. 
+  Combined with the fact that the adjusted R squared value is 0.45, it can be said that there is definitely a correlation
+  in the graph displayed. 
+</p>
+
+<p> 
+  The Q-Q plot on the left show how if both sets of quantiles came from the same distribution, we should see the points forming 
+  a line that's roughly straight, revealing how this is a normally distributed diagram. Normal distribution is good, because 
+  it indicates how the data is continuous and that there is a relationship present here. 
+</p>
+
+
+<p>
+  Learn more about linear regression by clicking 
+  <a href="https://www.scribbr.com/statistics/simple-linear-regression/">here!</a>
+</p>
+
+
+
+
+<center>
+  <img src="males.png" alt="MaleGraphic" style="width:600px; height:300px; flex-wrap: nowrap;">
+  <img src="females.png" alt="FemaleGraphic" style="width:600px; height:300px;flex-wrap: nowrap;">
+</center>
+<h4>
+  Source: <a href="https://www.census.gov/library/working-papers/1999/demo/POP-twps0029.html">
+    Historical Census Statistics on the Foreign-born Population of the United States: 1850-1990</a>
+  </h4>
+  
+<h4><u>
+  What Does this Graphic Tell Us
+</h4></u>
+
+<p>
+From this graphic, one can easily identify how there are significantly 
+more native born Americans working in professional or "white-collar" 
+industries. These industries include jobs in management, finance, business, 
+sales, etc. The graph also reveals how there are a higher proportion of 
+foreign born individuals working in service based industries such as 
+construction, maintenance, transportation etc. 
+</p>
+
+<p>
+  As a result, after seeing how there was such a disparity in the percent 
+  of people working in different industries, we wanted to help immigrant
+  populations gain an equal footing by offering a mentorship service for 
+  them. By taking a simple quiz, they can connect with people in similar
+  fields to jumpstart their career in a professional field! 
+</p>
+
+<b style="padding: 20px">
+</b>
+
+
+</html>

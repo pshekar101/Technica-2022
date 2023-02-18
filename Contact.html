@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+</style>
+<link rel="stylesheet" type="text/css" href="style.css">
+<head>
+  <style>
+    *{
+      box-sizing: border-box
+    }
+    .fname{
+      float:center;
+      width:100%
+    }
+    .lname{
+      float:center;
+      width:100%
+    }
+    .mail{
+      display:inline-block;
+      text-align:left;
+    }
+
+  </style>
+</head>
+<body>
+
+<title>
+  Contact Us
+</title>
+<div class="container">
+
+    <body>
+        <!--div style="background-color: #455a6e; height:69px; padding-top:60px;"></div--->
+        <!---img src="contactBackgroundHeader.png" style="height:100px" style="width:20000px" style="padding-top:100px"--->
+    </body>
+
+        <div id = "overlay" style="background-color: #F6C780; height:115px; padding-top:20px;">
+          <img src="mymentor.png" style="height:90px" style="width:40px">
+        </div>
+
+        <div class="tab">
+          <button class="tablinks" onclick="openTab(event, 'Home')"><a href = Home.html> Home </a></button>
+          <button class="tablinks" onclick="openTab(event, 'About')"><a href = AboutUs.html> About</a></button>
+          <button class="tablinks" onclick="openTab(event, 'Quiz')">  <a href = quiz.html> Quiz </a></button>
+          <button class="tablinks" onclick="openTab(event, 'Contacts')"><a href = Contact.html> Contact</a></button>
+        </div>
+<p></p>
+
+<div style="text-align:center">
+<h2>Contact Us</h2>
+<div style="text-align:center"></div>
+<p> Need to get in touch with us? Contact us at: mymentor@gmail.com </p>
+<p> We would be more than happy to guide you through
+  this professional matchmaking process! </p>
+
+<div class="row">
+  <div class="column"></div>
+  <div class="column">
+    <form action="/action_page.php">
+    
+    <section class="contact">
+      <section class="fname">
+        <div style="text-align:center">
+          <label for="firstName">First Name</label>
+          <p></p>
+          <input type="firstNameTxt" id="firstName" name="firstname" placeholder="John" size=15 ></div>
+          <p></p>
+      </section>
+
+      <section class="lname">
+        <div style="text-align:center">
+          <label for="lastName">Last Name</label>
+          <p></p>
+          <input type="lastNameTxt" id="lastName" name="lastname" placeholder="Doe" size=15>
+          <p></p>
+      </section>
+
+      <section class="mail">
+        <div style="text-align:center">
+          <label for="email">Email</label>
+          <p></p>
+          <input type="emailTxt" id="email" name="emailacct" placeholder="johndoe@gmail.com" size=20>
+          <p></p>
+      </section>
+      
+      <section class="helpLabel">
+        <div style="text-align:center">
+          <h3 for="message">What can we help you with?</h3>
+          <p></p>
+      </section>
+
+      <section class="subject">
+        <div style="text-align:center"></div>
+        <label for="subject">Subject</label>
+        <p></p>
+        <input type="subjectTxt" id="subject" name="emailSubject" placeholder="Enter Subject of Email" size=40>
+        <p></p>
+      </section>
+      
+      <section class="message">
+        <div style="text-align:center"></div>
+        <label for="message">Message</label>
+        <p></p>
+        <textarea type="messageTxt" id="message" name="bodyOfMessage" placeholder="I have a question about..."
+          style="height:170px" style="width:400px"></textarea>
+        <p></p>
+      </section>
+
+      <section class="submitButton">
+        <div style="text-align:center">
+          <input type="Submit" value="Contact us" style="width:120px">
+      </section>
+    </section>
+
+            </form>
+        </div>
+    </div>
+</div>
+    
+</html>
+
+<!--<div id="overlay">
+          <img src="mymentor.png" style="height:70px" style="width:40px">
+        </div>-->
